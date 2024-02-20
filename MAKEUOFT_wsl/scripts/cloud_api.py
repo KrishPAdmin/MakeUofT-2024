@@ -5,7 +5,7 @@ from typing import Optional
 import argparse
 
 # Grant permission for Cloud API
-os.environ["AIzaSyBxpiKC3misElZ9fEZe0WRtQp5JmDBpkOU"]="YourServiceAccount.json"
+os.environ["GOOGLE_CLOUD_API"]="YourServiceAccount.json"
 
 SPEECH_FILE = 'speech.wav'
 
