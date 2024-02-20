@@ -10,7 +10,7 @@ ARCHIVE_NAME = "resources/session.json"
 legal_session_terminators = ('good bye', 'goodbye', 'end session', 'turn off', 'shut down', 'shutdown', 'shutoff', 'shut off')
 
 # OpenAI API Key
-api_key = "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"
+api_key = "OPEN_AI_API"
 
 
 def write_to_file(content: str):
@@ -49,9 +49,9 @@ def get_response(user_prompt: str, image: bool) -> str:
                         }})
   
   role_system = {"role": "system",
-                 "content": "You are an daily AI assistant, skilled in providing \
-                            your user with summaries of information and answering \
-                            their queries in short messages no more than 25 words."
+                 "content": "Your name is "Haibo", you are an daily AI assistant, \
+                             skilled in providing your user with summaries of information \
+                             and answering their queries in short messages no more than 25 words."
                 }
   
   role_user = {"role": "user",
