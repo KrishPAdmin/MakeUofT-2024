@@ -15,6 +15,7 @@ mp_drawing = mp.solutions.drawing_utils
 
 
 def main():
+    print('Haibo started...')
     record_audio.stop_speaker()
     # Open a video capture object (0 for the default camera)
     cap = cv2.VideoCapture(0)
